@@ -1,6 +1,20 @@
 {
   "version": "1.0.0",
   "updated": "2024-12-21T00:00:00Z",
-  "plugins": [],
+  "plugins": [
+    {
+      "id": "com.fabric.pomodoro-timer",
+      "name": "Pomodoro Timer",
+      "version": "1.0.0",
+      "description": "A focus timer widget for your sidebar. Track work sessions with the Pomodoro Technique.",
+      "author": "FABRIC Team",
+      "type": "widget",
+      "downloads": 0,
+      "rating": 5,
+      "verified": true,
+      "cdnUrl": "https://raw.githubusercontent.com/framersai/fabric-plugins/main/plugins/pomodoro-timer/",
+      "keywords": ["timer", "pomodoro", "productivity", "focus", "time-management"]
+    }
+  ],
   "themes": []
 }

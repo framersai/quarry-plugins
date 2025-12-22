@@ -1,0 +1,129 @@
+/**
+ * Pomodoro Timer Plugin Styles
+ */
+
+.pomodoro-timer {
+  --accent: #ef4444;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--fabric-bg-secondary, #f4f4f5);
+  font-family: var(--fabric-font-sans, system-ui, sans-serif);
+}
+
+.dark .pomodoro-timer {
+  background: var(--fabric-bg-secondary, #27272a);
+}
+
+.pomodoro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.pomodoro-mode {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--fabric-text-primary, #18181b);
+}
+
+.dark .pomodoro-mode {
+  color: var(--fabric-text-primary, #fafafa);
+}
+
+.pomodoro-sessions {
+  font-size: 12px;
+  color: var(--fabric-text-secondary, #71717a);
+  background: var(--fabric-bg-tertiary, #e4e4e7);
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.dark .pomodoro-sessions {
+  background: var(--fabric-bg-tertiary, #3f3f46);
+}
+
+.pomodoro-display {
+  position: relative;
+  background: var(--fabric-bg-primary, #ffffff);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.dark .pomodoro-display {
+  background: var(--fabric-bg-primary, #18181b);
+}
+
+.pomodoro-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: var(--progress, 0%);
+  background: var(--accent);
+  transition: width 1s linear;
+}
+
+.pomodoro-time {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  color: var(--fabric-text-primary, #18181b);
+  letter-spacing: -0.02em;
+}
+
+.dark .pomodoro-time {
+  color: var(--fabric-text-primary, #fafafa);
+}
+
+.pomodoro-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.pomodoro-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background: var(--fabric-bg-tertiary, #e4e4e7);
+  color: var(--fabric-text-primary, #18181b);
+}
+
+.dark .pomodoro-btn {
+  background: var(--fabric-bg-tertiary, #3f3f46);
+  color: var(--fabric-text-primary, #fafafa);
+}
+
+.pomodoro-btn:hover {
+  background: var(--fabric-bg-hover, #d4d4d8);
+}
+
+.dark .pomodoro-btn:hover {
+  background: var(--fabric-bg-hover, #52525b);
+}
+
+.pomodoro-btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.pomodoro-btn-primary:hover {
+  filter: brightness(1.1);
+  background: var(--accent);
+}
+
+.pomodoro-stats {
+  text-align: center;
+  font-size: 12px;
+  color: var(--fabric-text-secondary, #71717a);
+}
+

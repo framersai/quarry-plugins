@@ -1,0 +1,67 @@
+{
+  "id": "com.fabric.pomodoro-timer",
+  "name": "Pomodoro Timer",
+  "version": "1.0.0",
+  "description": "A focus timer widget for your sidebar. Track work sessions with the Pomodoro Technique.",
+  "author": "FABRIC Team",
+  "authorUrl": "https://frame.dev",
+  "minFabricVersion": "1.0.0",
+  "main": "main.js",
+  "styles": "styles.css",
+  "type": "widget",
+  "position": "sidebar",
+  "keywords": ["timer", "pomodoro", "productivity", "focus", "time-management"],
+  "settings": {
+    "workDuration": {
+      "type": "number",
+      "default": 25,
+      "label": "Work Duration",
+      "description": "Length of work sessions in minutes",
+      "min": 1,
+      "max": 60
+    },
+    "breakDuration": {
+      "type": "number",
+      "default": 5,
+      "label": "Break Duration",
+      "description": "Length of short breaks in minutes",
+      "min": 1,
+      "max": 30
+    },
+    "longBreakDuration": {
+      "type": "number",
+      "default": 15,
+      "label": "Long Break Duration",
+      "description": "Length of long breaks in minutes",
+      "min": 5,
+      "max": 60
+    },
+    "sessionsBeforeLongBreak": {
+      "type": "number",
+      "default": 4,
+      "label": "Sessions Before Long Break",
+      "description": "Number of work sessions before a long break",
+      "min": 2,
+      "max": 10
+    },
+    "autoStartBreaks": {
+      "type": "boolean",
+      "default": false,
+      "label": "Auto-start Breaks",
+      "description": "Automatically start break timer after work session"
+    },
+    "soundEnabled": {
+      "type": "boolean",
+      "default": true,
+      "label": "Sound Notifications",
+      "description": "Play sound when timer completes"
+    },
+    "accentColor": {
+      "type": "color",
+      "default": "#ef4444",
+      "label": "Accent Color",
+      "description": "Timer accent color"
+    }
+  }
+}
+
