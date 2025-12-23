@@ -1,5 +1,5 @@
 /**
- * Widget Plugin Template for FABRIC
+ * Widget Plugin Template for Quarry
  *
  * This is a starting point for creating your own widget plugin.
  * Customize the MyWidget component and plugin class as needed.
@@ -22,7 +22,7 @@ interface WidgetProps {
 // BASE CLASS (included for standalone development)
 // ============================================================================
 
-class FabricPlugin {
+class QuarryPlugin {
   manifest: any
   api: any
   context: any
@@ -124,7 +124,7 @@ function MyWidget({ api, settings, theme, isDark }: WidgetProps) {
 // PLUGIN CLASS
 // ============================================================================
 
-class MyWidgetPlugin extends FabricPlugin {
+class MyWidgetPlugin extends QuarryPlugin {
   async onLoad() {
     // Register the sidebar widget
     this.api.registerSidebarWidget(MyWidget)

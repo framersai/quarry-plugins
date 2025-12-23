@@ -3,12 +3,12 @@
   "updated": "2025-01-01T00:00:00Z",
   "plugins": [
     {
-      "id": "com.fabric.pomodoro-timer",
+      "id": "com.quarry.pomodoro-timer",
       "name": "Pomodoro Timer",
       "version": "1.0.0",
       "description": "A simple pomodoro timer widget for focused work sessions",
-      "author": "FABRIC Team",
-      "authorUrl": "https://fabric.frame.dev",
+      "author": "Quarry Team",
+      "authorUrl": "https://quarry.frame.dev",
       "type": "widget",
       "position": "sidebar",
       "verified": true,
@@ -17,16 +17,16 @@
       "rating": 0,
       "tags": ["productivity", "timer", "focus"],
       "cdnUrl": "https://cdn.frame.dev/plugins/pomodoro-timer",
-      "repoUrl": "https://github.com/fabric-plugins/fabric-plugins/tree/main/plugins/pomodoro-timer",
-      "minFabricVersion": "1.0.0"
+      "repoUrl": "https://github.com/quarry-plugins/quarry-plugins/tree/main/plugins/pomodoro-timer",
+      "minQuarryVersion": "1.0.0"
     },
     {
-      "id": "com.fabric.citation-manager",
+      "id": "com.quarry.citation-manager",
       "name": "Citation Manager",
       "version": "1.0.0",
       "description": "Manage academic citations with [@key] syntax and BibTeX support",
-      "author": "FABRIC Team",
-      "authorUrl": "https://fabric.frame.dev",
+      "author": "Quarry Team",
+      "authorUrl": "https://quarry.frame.dev",
       "type": "renderer",
       "position": "sidebar",
       "verified": true,
@@ -35,16 +35,16 @@
       "rating": 0,
       "tags": ["academic", "citations", "research", "bibtex"],
       "cdnUrl": "https://cdn.frame.dev/plugins/citation-manager",
-      "repoUrl": "https://github.com/fabric-plugins/fabric-plugins/tree/main/plugins/citation-manager",
-      "minFabricVersion": "1.0.0"
+      "repoUrl": "https://github.com/quarry-plugins/quarry-plugins/tree/main/plugins/citation-manager",
+      "minQuarryVersion": "1.0.0"
     },
     {
-      "id": "com.fabric.custom-callouts",
+      "id": "com.quarry.custom-callouts",
       "name": "Custom Callouts",
       "version": "1.0.0",
       "description": "Add beautiful callout blocks with :::type[title] syntax",
-      "author": "FABRIC Team",
-      "authorUrl": "https://fabric.frame.dev",
+      "author": "Quarry Team",
+      "authorUrl": "https://quarry.frame.dev",
       "type": "renderer",
       "position": "content",
       "verified": true,
@@ -53,8 +53,8 @@
       "rating": 0,
       "tags": ["markdown", "callouts", "styling"],
       "cdnUrl": "https://cdn.frame.dev/plugins/custom-callouts",
-      "repoUrl": "https://github.com/fabric-plugins/fabric-plugins/tree/main/plugins/custom-callouts",
-      "minFabricVersion": "1.0.0"
+      "repoUrl": "https://github.com/quarry-plugins/quarry-plugins/tree/main/plugins/custom-callouts",
+      "minQuarryVersion": "1.0.0"
     }
   ],
   "themes": [],

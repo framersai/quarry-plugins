@@ -1,5 +1,5 @@
 /**
- * Renderer Plugin Template for FABRIC
+ * Renderer Plugin Template for Quarry
  *
  * This is a starting point for creating custom markdown renderers.
  * The example shows how to create a custom syntax: [[wiki-link]]
@@ -21,7 +21,7 @@ interface RendererProps {
 // BASE CLASS (included for standalone development)
 // ============================================================================
 
-class FabricPlugin {
+class QuarryPlugin {
   manifest: any
   api: any
   context: any
@@ -88,7 +88,7 @@ function WikiLinkRenderer({ match, api }: RendererProps) {
 // PLUGIN CLASS
 // ============================================================================
 
-class MyRendererPlugin extends FabricPlugin {
+class MyRendererPlugin extends QuarryPlugin {
   async onLoad() {
     // Register the markdown renderer
     // Pattern matches [[content]] with optional |display text

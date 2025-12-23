@@ -1,10 +1,10 @@
-# FABRIC Community Plugins
+# Quarry Community Plugins
 
-Official community plugin repository for [FABRIC](https://github.com/frame-dev/fabric) — the open-source codex viewer.
+Official community plugin repository for [Quarry](https://github.com/frame-dev/quarry) — the open-source AI-native personal knowledge management system.
 
-## What is FABRIC?
+## What is Quarry?
 
-FABRIC is the open-source edition of frame.dev's codex viewer, featuring:
+Quarry is the open-source edition of Frame.dev's knowledge management platform, featuring:
 - Knowledge graph visualization
 - Semantic search
 - Full plugin & theme support
@@ -15,7 +15,7 @@ FABRIC is the open-source edition of frame.dev's codex viewer, featuring:
 
 ### From the Registry (Recommended)
 
-1. Open FABRIC and click the **Plugins** tab in the sidebar
+1. Open Quarry and click the **Plugins** tab in the sidebar
 2. Click **Browse Registry**
 3. Find the plugin you want and click **Install**
 
@@ -37,7 +37,7 @@ FABRIC is the open-source edition of frame.dev's codex viewer, featuring:
 
 ```bash
 # Clone the template
-git clone https://github.com/fabric-plugins/template-widget my-plugin
+git clone https://github.com/quarry-plugins/template-widget my-plugin
 cd my-plugin
 
 # Edit manifest.json with your plugin details
@@ -46,7 +46,7 @@ cd my-plugin
 # Build (if using TypeScript)
 npm install && npm run build
 
-# Test locally by installing via ZIP in FABRIC
+# Test locally by installing via ZIP in Quarry
 ```
 
 ### Plugin Structure
@@ -69,7 +69,7 @@ my-plugin/
   "description": "What your plugin does",
   "author": "Your Name",
   "authorUrl": "https://yoursite.com",
-  "minFabricVersion": "1.0.0",
+  "minQuarryVersion": "1.0.0",
   "main": "main.js",
   "styles": "styles.css",
   "type": "widget",
@@ -100,7 +100,7 @@ my-plugin/
 ### Plugin API
 
 ```typescript
-class MyPlugin extends FabricPlugin {
+class MyPlugin extends QuarryPlugin {
   async onLoad() {
     // Register a sidebar widget
     this.api.registerSidebarWidget(MyWidgetComponent)
@@ -142,7 +142,7 @@ class MyPlugin extends FabricPlugin {
 ### Available API Methods
 
 ```typescript
-interface FabricPluginAPI {
+interface QuarryPluginAPI {
   // Navigation
   navigateTo(path: string): void
   openFile(path: string): Promise<void>
@@ -200,7 +200,7 @@ interface FabricPluginAPI {
 
 - **ID Format**: Use reverse domain notation: `com.yourname.plugin-name`
 - **Versioning**: Follow [semver](https://semver.org/)
-- **Compatibility**: Specify accurate `minFabricVersion`
+- **Compatibility**: Specify accurate `minQuarryVersion`
 - **Documentation**: Include clear README with examples
 - **Testing**: Test your plugin thoroughly before submitting
 - **No Malware**: Plugins must not contain malicious code
@@ -227,7 +227,7 @@ All plugins in this repository are licensed under the [MIT License](LICENSE) unl
 
 ## Support
 
-- [FABRIC Documentation](https://fabric.frame.dev/docs)
-- [Plugin Development Guide](https://fabric.frame.dev/docs/plugins)
-- [Discord Community](https://discord.gg/fabric)
-- [GitHub Issues](https://github.com/fabric-plugins/fabric-plugins/issues)
+- [Quarry Documentation](https://quarry.frame.dev/docs)
+- [Plugin Development Guide](https://quarry.frame.dev/docs/plugins)
+- [Discord Community](https://discord.gg/quarry)
+- [GitHub Issues](https://github.com/quarry-plugins/quarry-plugins/issues)
