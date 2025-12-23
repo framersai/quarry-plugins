@@ -1,6 +1,6 @@
 # Quarry Community Plugins
 
-Official community plugin repository for [Quarry](https://github.com/frame-dev/quarry) — the open-source AI-native personal knowledge management system.
+Official community plugin repository for [Quarry](https://github.com/framersai/quarry) — the open-source AI-native personal knowledge management system.
 
 ## What is Quarry?
 
