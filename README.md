@@ -1,6 +1,12 @@
-# Quarry Community Plugins
+<p align="center">
+  <img src="assets/quarry-logo-dark.svg" alt="Quarry" width="280" />
+</p>
 
-Official community plugin repository for [Quarry](https://github.com/framersai/quarry) — the open-source AI-native personal knowledge management system.
+<h1 align="center">Quarry Community Plugins</h1>
+
+<p align="center">
+  Official community plugin repository for <a href="https://github.com/framersai/quarry">Quarry</a> — the open-source AI-native personal knowledge management system by <a href="https://frame.dev">Frame.dev</a>
+</p>
 
 ## What is Quarry?
 
@@ -227,7 +233,13 @@ All plugins in this repository are licensed under the [MIT License](LICENSE) unl
 
 ## Support
 
-- [Quarry Documentation](https://quarry.frame.dev/docs)
-- [Plugin Development Guide](https://quarry.frame.dev/docs/plugins)
-- [Discord Community](https://discord.gg/quarry)
-- [GitHub Issues](https://github.com/quarry-plugins/quarry-plugins/issues)
+- [Quarry Documentation](https://frame.dev/quarry/docs)
+- [Plugin Development Guide](https://frame.dev/quarry/docs/plugins)
+- [Discord Community](https://discord.gg/framedev)
+- [GitHub Issues](https://github.com/framersai/quarry-plugins/issues)
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ by <a href="https://frame.dev">Frame.dev</a></sub>
+</p>
